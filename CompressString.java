@@ -89,8 +89,7 @@ public class CompressString {
             stringBuilder.append(count);
           }
           count = 1;
-          index++;
-          //System.out.print(index);
+          index++;          
           break;
         }
       }
