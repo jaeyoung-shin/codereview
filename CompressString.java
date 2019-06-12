@@ -93,7 +93,7 @@ public class CompressString {
           break;
         }
       }
-      if (index == src.length() - 1)
+      if (index == (src.length() - 1))
       {
         if (src.charAt(index) != src.charAt(index - 1))
         {
