@@ -68,8 +68,9 @@ public class CompressString {
    * First while loop for finding repeat groups, and inner while loop is for finding same characters
    */
   public String compressAlternativeApproach(String src) {
-    if (src.size() == 0 || src.length() == 1)
+    if ((src.size() == 0) || (src.length() == 1)) {
       return src;
+    }
     int index = 0;
     int count = 1;
     StringBuilder stringBuilder = new StringBuilder();
