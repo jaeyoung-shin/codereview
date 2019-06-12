@@ -102,8 +102,9 @@ public class CompressString {
         } else
         {
           stringBuilder.append(src.charAt(index));
-          if (count > 1)
+          if (count > 1) {
             stringBuilder.append(count);
+          }
         }
         index++;
         break;
