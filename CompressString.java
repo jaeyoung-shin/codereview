@@ -133,8 +133,9 @@ public class CompressString {
   public String compressRecursive(String src) {
     boolean thereIsNoMoreWordToCompress = false;
 
-    if (src.length() <= 1)
+    if (src.length() <= 1) {
       return src;
+    }
 
     return compressRecursiveInner(src, new StringBuilder(), 1, src.charAt(0), 1);
   }
